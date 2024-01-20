@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div,id,span and class</title>
+    <style>
+      .card {
+        background-color: rgb(216, 65, 19);
+        padding: 20px;
+        margin: 10px;
+        border: 5px green solid;
+      }
+      .enhance{
+        background-color: black;
+        color: gold;
+      }
+      #main-header{
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-header" class="card"> 
+      <h1>My website</h1>
+      <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+      <h3>About</h3>
+      <p>
+        Lorem ipsum dolor sit, amet 
+        <div class="enhance"> consectetur adipisicing elit. Eligendi nisi
+        quidem</div> mollitia aliquam, ipsa voluptas odio ea culpa ab libero molestias
+        beatae illum laborum. Dolorem,
+        <span class="enhance"> quia quisquam! Placeat, veritatis vel!
+        </span>
+      </p>
+    </div>
+    <div id="Contact" class="card">
+      <h3>Contact</h3>
+      <ul>
+        <li>Adress: Boston,street1</li>
+        <li>Phone:(555) 345-3455</li>
+        <li>Country</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <p>copyright &copy; 2022</p>
+    </div>
+  </body>
+</html>
